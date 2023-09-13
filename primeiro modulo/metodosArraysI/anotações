@@ -1,0 +1,32 @@
+indexOf() --> encontra um item dentro de um array e retorna o índice da primeira ocorrência.
+
+-->lista.indexOf("palavra")
+---se não achar retorna -1
+
+
+includes()--> retorna um booleano
+
+-->lista.includes("palavra")
+
+reverse()-->inverte a ordem dos itens de um array
+--além disso, ele modifica o item original
+
+
+
+join()--> junta elementos de arrays em uma string separados por virgula
+--> o que você passa no parametro é postp entre os itens
+
+concat()-->retorna um único array que é a concatenação de todos os arrays passados como argumento
+
+slice()-->pega o array original, faz uma copia e retorna a fatia que você quer
+--o indice que vc passa primeiro como argumeto está incluso e o ultimo está excluso
+
+
+splice()-->pode inserir itens em um array, apagar itens e pode substituir
+--ele muda a array original
+--array.splice(indice,deleteCount,elemento1,...elementoN)
+--retorna os elementos que você removeu
+
+--primeiro argumento: onde eu quero fazer a modificacao
+--o segundo seria quantos vc quer apagar, ou seja ele pela o primeiro argumento e apaga os proximos de acordo com o valor que você passar
+-- os outros argumentos são os elementos que você quer inserir

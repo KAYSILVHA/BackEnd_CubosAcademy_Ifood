@@ -1,0 +1,66 @@
+// includes
+
+// includes()--> serve para descobrir se há um suposto texto, letra, palavra....Dentro da string
+// str.includes(searchString[,position])
+// nome da variavel = str
+// searchString = é o q vc procura
+// position = a partir de qual posição procurar
+// retorna true ou false
+
+// indexOf  
+
+// Serve para descobrir qual o indice de determinada coisa
+// str.indexOf(searchValue[, fromIndex])
+//retorna onde está o número, caso não encontre retorna -1
+
+
+//lasIndexOf
+
+//procura um texto dentro de outro texto retona aonde está a última ocorrencia
+//procura de tras para frente
+//str.lastIndexOf(searchValue[, fromIndex])
+
+
+//slice
+
+//Pegar uma fatia da string
+//str.slice(startIndex[, endIndex])
+//se o start for negativo ele pega de traz para frente
+
+
+
+//replace
+//substituir
+//str.replace(text, newText)
+//só substitui a primeira e mantém o texto original, ele copia e modifica a copia
+//só funciona em strings
+
+
+//toUpperCase() and toLowerCase()
+
+//texto.UpperCase()
+
+
+//trim()
+//remove espaços em branco da string
+
+//const email = "  kay@gmail.com  "
+//const formatado = email.trim();
+
+
+
+//padStart()
+//serve para preencher um string até que atinja o tamanho length
+//const ultimos4dig = "2345";
+
+//const numCartao = ultimos4dig.padStart(19, "****")
+
+
+//split()
+//transforma uma string num array de strings menores, separando-a em todos os lugares onde encontrar o argumento ta:
+
+//const nomeCompleto = "Rwayan Makkena"
+
+// const array = nomeCompleto.split(" ");
+// const nomeDoMeio = array[1];
+// console.log(nomeDoMeio);
